@@ -1,0 +1,34 @@
+.accordian{
+    height:100vh;
+    width:100vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+   flex-direction: column;
+}
+button{
+    width:500px;
+    height:100px;
+    display:flex;
+    background-color: aqua;
+    color: black;
+}
+.accquestion {
+        width:500px;
+        height:300px;
+        background-color: grey;
+        color:balck;
+        padding:15px;
+}
+.title{
+    color:white;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor:pointer;
+  
+}
+.item {
+   margin-bottom: 10px;
+}
